@@ -1,0 +1,10 @@
+@media screen and (min-width: 900px) {
+  p,
+  .main-img {
+    width: 48%; /* 48% of 1200 = 576 , 800 largest, medium 500, small 400  */
+  }
+
+  p {
+    margin-right: 4%;
+  }
+}

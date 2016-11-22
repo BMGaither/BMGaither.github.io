@@ -1,0 +1,26 @@
+html {
+  background-image: linear-gradient(blue,magenta);
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #eee;
+  padding: 40px;
+  height: calc(100vh - 80px);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin-right: 40px;
+}
